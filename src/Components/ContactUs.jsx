@@ -1,5 +1,5 @@
 import TextField from '@mui/material/TextField';
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 import { useState } from 'react';
 
 export default function ContactUs() {
@@ -22,11 +22,11 @@ export default function ContactUs() {
       </div>
 
      { isSubmitted ? <div> 
-                          <h1 className='text-3xl font-semibold'><span className='text-orange-600 uppercase'>{name}</span>,Thanks For Submitting Form.</h1>
+                          <h1 className='text-3xl font-semibold'><span className='text-orange-600 uppercase'>{name}</span> , Thanks For Submitting Form.</h1>
                           <p className='text-xl font-semibold'> We will soon Get in touch with You.</p>
                      </div>
                    :
-              <form  className=' flex flex-col justify-center  items-center'  >
+              <form  className=' flex flex-col justify-center  items-center' onSubmit={handleSubmit} >
 
       <div className='border rounded-xl border-orange-600 p-8'>
 
@@ -42,8 +42,10 @@ export default function ContactUs() {
             <TextField 
                         id="filled-basic"
                         label="Full Name" 
+                        type='text'
                         variant="filled"
                         onChange={(e)=> setName(e.target.value)}
+                        required
                         className='bg-white rounded-lg w-full ' />
 
                         {console.log(name)
@@ -55,7 +57,9 @@ export default function ContactUs() {
             <TextField 
                         id="filled-basic"
                         label="Email" 
+                        type='email'
                         variant="filled"
+                        required
                         className='bg-white rounded-lg w-full' />
           </div>
         </div>
@@ -65,6 +69,8 @@ export default function ContactUs() {
                         id="filled-basic"
                         label="https://" 
                         variant="filled"
+                        
+                        required
                         className='bg-white rounded-lg w-full' />
         </div>
         <div className='w-full  mb-8 '>
@@ -80,7 +86,7 @@ export default function ContactUs() {
 
         <div className=''>
 
-        <Button variant="contained" onClick={handleSubmit} >Submit</Button>
+        <button className='hover:bg-sky-600 border border-white px-6 py-2 rounded-lg  transition-colors' >Submit</button>
         </div>
 
        

@@ -46,7 +46,7 @@ function Home() {
                         </Link>
                     </div>
 
-                    <div className="z-10 w-[1200px]">  <img src="./src/assets/Business Plan-amico.svg" alt="Solution" /></div>
+                    <div className="z-10 w-[1200px]">  <img src="src/assets/Business Plan-amico.svg" alt="Solution" /></div>
                 </div>
 
                

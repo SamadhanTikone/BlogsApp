@@ -17,7 +17,7 @@ export default function SectionB() {
                     porro provident cum suscipit...
                 </p>
                 <img 
-                    src="../../public/artbreeder-image-2024-11-22T17_58_24.200Z.jpeg" 
+                    src="src/assets/artbreeder-image-2024-11-22T17_25_21.851Z.jpeg" 
                     alt="Company image" 
                     className="w-[400px] rounded-lg "
                 />

@@ -46,7 +46,7 @@ function Home() {
                         </Link>
                     </div>
 
-                    <div className="z-10 w-[1200px]">  <img src="../../public/Business Plan-amico.svg" alt="" /></div>
+                    <div className="z-10 w-[1200px]">  <img src="src/assets/Business Plan-amico.svg" alt="react" /></div>
                 </div>
 
                
@@ -81,8 +81,8 @@ function Home() {
                         </p>
 
                         <img
-                            src="../../public/java-svgrepo-com.svg"
-                            alt=""
+                            src="src/assets/java-svgrepo-com.svg"
+                            alt="nasssssssss"
                             className="z-10 w-24 float-right right-0 "
                         />
                     </div>
@@ -93,7 +93,7 @@ function Home() {
                         </h2>
 
                         <img
-                            src="../../public/services-svgrepo-com.svg"
+                            src="src/assets/services-svgrepo-com.svg"
                             alt=""
 
                             className=" w-24 float-left absolute  z-10 "
@@ -116,7 +116,7 @@ function Home() {
                             })}
                         </div>
                         <img
-                            src="../../public/java-svgrepo-com.svg"
+                            src="src/assets/java-svgrepo-com.svg"
                             alt=""
                             className="z-10 w-24 left-[50%] bottom-0 absolute "
                         />

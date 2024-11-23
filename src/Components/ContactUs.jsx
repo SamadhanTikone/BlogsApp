@@ -38,7 +38,7 @@ export default function ContactUs() {
 
 
           <div className=''>
-            <label htmlFor="name" className='text-xl float-left mr-4'>Full Name:</label>
+            <label htmlFor="name" className='text-xl float-left mr-4'>Full Name*:</label>
             <TextField 
                         id="filled-basic"
                         label="Full Name" 
@@ -53,7 +53,7 @@ export default function ContactUs() {
                         
           </div>
           <div className=''>
-            <label htmlFor="name" className='text-xl float-left mr-4'>Email:</label>
+            <label htmlFor="name" className='text-xl float-left mr-4'>Email*:</label>
             <TextField 
                         id="filled-basic"
                         label="Email" 
@@ -64,7 +64,7 @@ export default function ContactUs() {
           </div>
         </div>
         <div className='w-full  mb-12 '>
-          <label htmlFor="website" className='text-xl float-left mr-4'>Your Webpage Link: </label>
+          <label htmlFor="website" className='text-xl float-left mr-4'>Your Webpage Link*: </label>
         <TextField 
                         id="filled-basic"
                         label="https://" 

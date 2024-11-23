@@ -8,7 +8,7 @@ export default function SectionA() {
             <div className="flex flex-col md:flex-row gap-8 w-full md:w-auto">
                 
                 <img 
-                    src="src/assets/artbreeder-image-2024-11-22T17_58_24.200Z.jpeg" 
+                    src="public/artbreeder-image-2024-11-22T17_58_24.200Z.jpeg" 
                     alt="Company image" 
                     className="w-[400px] rounded-lg"
                 />

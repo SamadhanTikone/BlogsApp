@@ -1,12 +1,14 @@
 
 import './App.css'
+// import Layout from './Components/Layout'
 
 function App() {
 
 
   return (
    <>
-   <h1 className='text-10xl font-bold '>Hello Ji 👋</h1>
+   {/* <h1 className='text-7xl font-bold '>Hello ji 👋</h1> */}
+   {/* <Layout/> */}
    </>
   )
 }

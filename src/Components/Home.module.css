@@ -1,0 +1,30 @@
+.main
+{
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/08/18/25/desk-593327_1280.jpg);
+    /* box-shadow: 4px 4px 12px lin; */
+    border-radius: 20px;
+    /* width: 100%;
+    height: auto; */
+    border-radius: 20px;  /* Adjust the rounding */
+    /* mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%); */
+    /* -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%); */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.main::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    /* Create the linear gradient shadow */
+    background: linear-gradient(90deg, rgba(210, 80, 5, 0.915) 40%, rgba(177, 3, 207, 0.5) 60%);
+
+    /* Set the blur effect */
+    filter: blur(40px);
+    
+    /* Make the shadow extend beyond the element */
+    z-index: -1; 
+  }
